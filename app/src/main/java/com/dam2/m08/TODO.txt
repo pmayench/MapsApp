@@ -1,0 +1,11 @@
+estructura firestore
+        - collection: users
+            - document: user
+                - collection: fotos
+                    - document: id
+                        - id: double -> number
+                        - image: byte[] -> string
+                        - latitude: double -> number
+                        - longitude: double -> number
+                        - date: LocalDateTime -> string
+                        - user: String -> string
